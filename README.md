@@ -34,6 +34,8 @@ usersテーブル
 
 has_many : irregulars
 
+
+
 irregularsテーブル
 
 | Column             | Type                | Options                   |
