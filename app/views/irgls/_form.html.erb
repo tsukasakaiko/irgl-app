@@ -1,0 +1,25 @@
+<%= form_with model: irgl, local: true do |f|%>
+  <div class="field">
+    <%= f.label :title, "SPOT" %><br />
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :title, "SHIP NO" %><br />
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :catch_copy, "STATUS" %><br />
+    <%= f.text_area :catch_copy, class: :form__text %>
+  </div>
+
+ <div class="field">
+    <%= f.label :catch_copy, "REMARKS" %><br />
+    <%= f.text_area :catch_copy, class: :form__text %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "保存", class: :form__btn  %>
+  </div>
+<% end %>
